@@ -50,8 +50,6 @@ class App
     name = gets.chomp
     print 'Has parent persmission? [Y/N]: '
     parent_permission = gets.chomp.downcase == 'y'
-    # print 'Select classroom: '
-    # classroom = gets.chomp
     @persons.push(Student.new(age, name, parent_permission))
     puts 'Person created successfuly'
   end
