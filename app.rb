@@ -13,17 +13,13 @@ class App
 
   # List all books.
   def list_books
-    @books.each do |book|
-      puts "Title: #{book.title}, Author: #{book.author}"
-    end
+   
     @option.show_options
   end
 
   # List all people.
   def list_people
-    @persons.each do |person|
-      puts "[#{person.class.name}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
-    end
+  
     @option.show_options
   end
 
