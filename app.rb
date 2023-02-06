@@ -2,6 +2,9 @@ require_relative './student'
 require_relative './teacher'
 require_relative './book'
 require_relative './rental'
+require_relative 'book_lister'
+require_relative 'people_lister'
+require_relative 'data_lister'
 
 class App
   def initialize(option)
@@ -9,17 +12,21 @@ class App
     @books = []
     @persons = []
     @rentals = []
+    @books_lister = BookLister.new
+    @people_lister = PeopleLister.new
   end
 
   # List all books.
   def list_books
-   
+    data_lister = DataLister.new(@books_lister)
+    data_lister.list_data(@books)
     @option.show_options
   end
 
   # List all people.
   def list_people
-  
+    data_lister = DataLister.new(@people_lister)
+    data_lister.list_data(@persons)
     @option.show_options
   end
 
