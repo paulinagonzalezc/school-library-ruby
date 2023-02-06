@@ -1,4 +1,3 @@
-
 module Menu
   def show_options
     puts "\nPlease choose an option by entering the number:
