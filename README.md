@@ -92,6 +92,7 @@ ruby main.rb
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **Redesign UI**
 - [ ] **Solve edge cases**
 - [ ] **More methods**
 
