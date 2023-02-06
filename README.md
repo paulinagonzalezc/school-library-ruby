@@ -81,6 +81,13 @@ ruby main.rb
 - Twitter: [@paulinagzzc](https://twitter.com/paulinagzzc)
 - LinkedIn: [Paulina Gonzalez Cantu](https://linkedin.com/in/paulina-gonzalez-cantu)
 
+
+👤 **Yosef Hesham**
+
+- GitHub: [@yosefHesham](https://github.com/yosefHesham)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/yousef-hesham98)
+- Twitter: [@yousef](https://twitter.com/Yousef45653478)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
