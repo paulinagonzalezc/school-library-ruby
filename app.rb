@@ -5,6 +5,8 @@ require_relative './rental'
 require_relative 'book_lister'
 require_relative 'people_lister'
 require_relative 'data_lister'
+require_relative './preserve/save_data'
+require_relative './preserve/load_data'
 
 class App
   def initialize(option)
@@ -111,7 +113,16 @@ class App
     @option.show_options
   end
 
+  def save_data
+    save_book
+  end
+
+  def load
+    load_data
+  end
+
   def exit
     puts 'Thank you for using the app!'
+    save_data
   end
 end

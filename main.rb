@@ -6,6 +6,7 @@ class Options
 
   def initialize
     @app = App.new(self)
+    @app.load
     puts 'Welcome to School Library App!'
     show_options
   end
