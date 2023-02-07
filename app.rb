@@ -115,6 +115,7 @@ class App
 
   def save_data
     save_book
+    save_person
   end
 
   def load
