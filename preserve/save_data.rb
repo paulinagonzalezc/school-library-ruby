@@ -22,7 +22,7 @@ def save_person
     obj = {
       'type' => person.class.name,
       'name' => person.name,
-      'age' => person.age,
+      'age' => person.age
     }
     arr.push(obj)
   end

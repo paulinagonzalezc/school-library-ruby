@@ -6,7 +6,7 @@ require_relative '../teacher'
 require_relative '../rental'
 
 def load_data
-  puts 'LOADING...'
+  puts 'LOADING DATA...'
   load_books
   load_people
   load_rentals
