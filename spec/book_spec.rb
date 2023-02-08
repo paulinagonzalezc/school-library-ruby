@@ -6,11 +6,11 @@ describe Book do
     author = 'George R Martin'
     book = Book.new(title, author)
 
-    it 'should validate the title of the book' do
+    it 'Validate the title of the book' do
       expect(book.title).to eq title
     end
 
-    it 'should validate the author of the book' do
+    it 'Validate the author of the book' do
       expect(book.author).to eq author
     end
   end
