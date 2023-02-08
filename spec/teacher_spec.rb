@@ -18,7 +18,7 @@ describe Teacher do
 
   context 'For the can_use_services? method.' do
     it 'Can use services?' do
-      teacher = Teacher.new(26, 'Rose', 'Math') 
+      teacher = Teacher.new(26, 'Rose', 'Math')
       expect(teacher.can_use_services?).to eql true
     end
   end
